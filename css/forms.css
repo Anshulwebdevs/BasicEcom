@@ -1,0 +1,41 @@
+.form{
+margin-top:50px;
+margin-bottom:50px;
+}
+.form input{
+	width:500px;
+	height:40px;
+	padding-left:10px;
+	border:1px solid silver;
+	border-radius:7px;
+}
+.form label{
+	line-height:40px;
+	margin-right:50px;
+	font-size:20px;
+}
+.form select{
+	width:513px;
+	height:40px;
+	padding-left:10px;
+	border-radius:7px;
+}
+
+.form textarea{
+	width:500px;
+	height:80px;
+	padding-top:10px;
+	padding-left:10px;
+	border-radius:7px;
+}
+
+.form .subb{
+	width:513px;
+	background-color:#3276b1;
+	border-color:#285e8e;
+	color:white;
+	font-size:15px;
+}
+.form .subb:hover{
+	background-color:#285e8e;
+}

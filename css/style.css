@@ -1,0 +1,433 @@
+*{
+padding:0px;
+margin:0px;
+font-family:arial;
+transition-duration:0.5s;
+-webkit-transition-duration:0.5s;
+-moz-transition-duration:0.5s;
+}
+body{
+	width:100%;
+	background-image: url(../img/bobg.png);
+	background-attachment: fixed;
+}
+hr{
+	background-color:black;
+	margin-left:5px;
+}
+h1{
+	margin-top: 10px;
+	margin-left: 5px;
+	text-align: left;
+	height: 50px;
+	width: 805px;
+	color: #000;
+	background-color: #fff;
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 15px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 15px 2px #999999;
+	
+}
+#head{
+height:70px;
+background-color:black;
+position:fixed;
+width:100%;
+opacity:0.7;
+z-index:2;
+}
+#head a{
+color:white;
+font-size:25px;
+min-width:100px;
+display:inline;
+line-height:70px;
+text-align:center;
+text-decoration:none;
+float:right;
+opacity: 0.9;
+padding-left: 20px;
+padding-right: 20px;
+z-index:2;
+}
+#head a:hover{
+	background-color: rgb(255,51,0);
+}
+#logo{
+float:left;
+color:white;
+font-size:59px;
+font-family:Harrington,Monotype Corsiva,Segoe Script;
+z-index:2;
+}
+#wrapper{
+
+width:1210px;
+min-height:1000px;
+display: block;
+overflow:auto;
+
+}
+#sidebar{
+
+width:190px;
+float:left;
+min-height:1000px;
+margin-top:60px;
+text-align: center;
+display: block;
+}
+#sidebar h2{
+	margin-top: 20px;
+	border-top-radius: 5px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	color: rgb(255,255,255);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	line-height: 35px;
+	height: 60px;
+	background-image: url(../img/sidebg3.png);
+}
+
+
+
+#content{
+
+margin-top:70px;
+width:820px;
+float:left;
+min-height:1000px;
+
+display: inline-block;
+
+}
+#content h2{
+	margin-top: 10px;
+	margin-left: 5px;
+	text-align: left;
+	height: 50px;
+	width: 805px;
+	color: #FFF;
+	background-color: #000000;
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 15px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 15px 2px #999999;
+}
+#sidebar a{
+	background-color: rgb(204,204,204);
+	margin-top: 1px;
+	width: 190px;
+	display: block;
+	height: 30px;
+	text-decoration: none;
+	line-height: 30px;
+	color: rgb(0,0,0);
+	border-radius: 5px;
+}
+
+
+
+#sidebar a:hover{
+
+background-color:rgb(230,230,230);
+box-shadow: 0px 5px 15px 0px black;
+
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 0.3s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count:infinite;
+	
+	-moz-animation-name: example;
+	-moz-animation-duration: 0.3s; 
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-direction: alternate;
+	-moz-animation-iteration-count:infinite;
+	
+	animation-name: example;
+	animation-duration: 0.3s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count:infinite;
+	
+}
+
+@-webkit-keyframes example {
+    0% {
+	}
+	50%{
+		-webkit-transform:rotate(-10deg);
+	}
+    100% {-webkit-transform:rotate(10deg);}
+}
+
+@-moz-keyframes example {
+    0% {
+	}
+	50%{
+		-moz-transform:rotate(-10deg);
+	}
+    100% {-moz-transform:rotate(10deg);}
+}
+
+@keyframes example {
+    0% {
+	}
+	50%{
+		transform:rotate(-10deg);
+	}
+    100% {transform:rotate(10deg);}
+}
+
+
+#rightdiv{
+width:190px;
+float:right;
+min-height:1000px;
+margin-top:60px;
+margin-left:0px;
+text-align: center;
+display: inline-block;
+//background-color:silver;
+}
+#rightdiv h2{
+	margin-top: 20px;
+	margin-left: 5px;
+	border-top-radius: 5px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	color: rgb(255,255,255);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	line-height: 60px;
+	height: 60px;
+	background-image: url(../img/sidebg3.png);
+	
+}
+
+.advt{
+	width:183px;
+	height: 300px;
+	border:1px solid silver;
+	margin-left:5px;
+	margin-bottom:30px;
+	text-align: center;
+	font-size:20px;
+	padding: 0px;
+	border-radius: 0px;
+	color:#555;
+	z-index:-1;
+	}
+.advt img{
+	border-radius: 5px;
+	width:170px;
+	height:300px;
+	margin-left:5px;
+	z-index:-1;
+}
+
+#searcht{
+width:690px;
+height:30px;
+float:left;
+display:inline;
+margin-left:10px;
+margin-top:10px;
+border-radius:10px;
+padding-left:30px;
+background: url(../img/search.png) no-repeat 4px center #fff;
+}
+#searchb{
+width:70px;
+height:30px;
+float:left;
+margin-top:10px;
+margin-left:5px;
+border-radius:10px;
+color:white;
+
+box-shadow: 3px 3px 16px 1px;
+background-color:rgba(0,0,0,0.5);
+}
+#searchb:hover{
+
+background-color:rgba(0,0,0,0.7);
+}
+#footer{
+//position:relative;
+width:100%;
+background-color:black;
+color:white;
+height:250px;
+margin-top:0px;
+margin-bottom:0px;
+display:block;
+text-align:center;
+line-height:30px;
+}
+#footer table{
+	color:white;
+	width:100%;
+	text-align:left;
+	padding-left:80px;
+	padding-top:50px;
+	line-height:20px;
+}
+#footer table h2{
+	font-size:14px;
+}
+#footer table a{
+	font-size:11px;
+	line-height:24px;
+	color:#ccc;
+	text-decoration:none;
+}
+#footer table a:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
+#footicon{
+width:280px;
+}
+.myinfo{
+	width: 805px;
+	margin-top: 50px;
+	margin-left: 5px;
+	display:block;
+	border-radius: 5px;
+	color: #464646;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: left;
+
+}
+
+.myinfo h3{
+font-size:25px;
+}
+
+.product{
+	width: 260px;
+	height: 390px;
+	margin-left: 8px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	display: inline-block;
+	border: 1px solid #ddd;
+	overflow: hidden;
+	border-radius: 5px;
+	padding-top: 5px;
+	box-shadow: 5px 5px 16px 1px silver;
+	background-color: #F4F4F4;
+}
+.product img{
+margin-left:4px;
+border-radius:5px;
+}
+.pname{
+	height:35px;
+	color:#555;
+	font-weight:bold;
+	font-size:20px;
+	line-height:35px;
+}
+.desc table{
+width:500px;
+text-align:left;
+line-height:50px;
+}
+.order{
+display:block;
+width:500px;
+height:30px;
+background-color:BLACK;
+color:white;
+font-size:15px;
+line-height:30px;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+text-decoration:none;
+}
+.order:hover{
+
+background-color:4C5655;
+
+}
+
+.ofpp{
+color:green;
+font-weight:bold;
+font-size:20px;
+}
+.mrpp{
+color:red;
+font-weight:bold;
+font-size:15px;
+}
+.forder{
+	width: 250px;
+	background-color: #333;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	height: 0px;
+	border-radius: 5px;
+	line-height: 50px;
+	overflow:hidden;
+}
+.product table{
+width:250px;
+height:50px;
+}
+.product:hover .forder{
+	height: 50px;
+	line-height: 50px;
+}
+
+.forder:hover{
+background-color:black;
+}
+
+.user h1 {
+    width: 805px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 5px;
+    display: inline-block;
+    line-height: 60px;
+    border-radius: 5px;
+    color: white;
+    padding-left: 20px;
+    text-align: left;
+    background: #000;
+}
+.msg h3{
+	margin-top: 50px;
+	margin-left: 5px;
+	text-align: left;
+	height: 50px;
+	width: 805px;
+	color: black;
+	background-color: green;
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 15px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 15px 2px #999999;
+	
+	
+}
+
+
+
+
+
+
