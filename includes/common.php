@@ -122,7 +122,7 @@ function contentbottom(){
 <div id="footer">
 <table>
 <tr><td><h2>TOP BRANDS</h2></td><td><h2>INFORMATION</h2></td><td><h2>OUR OFFERS</h2></td><td><h2>SOCIAL MEDIA</h2></td></tr>
-<tr><td><a href="Search.php?bid=HTC" >HTC</a></td><td><a href="CONTACT.PHP" >CONTACT</a></td><td><a href="index.php" >NEW PRODUCTS</a></td>
+<tr><td><a href="search.php?bid=HTC" >HTC</a></td><td><a href="contact.php" >CONTACT</a></td><td><a href="index.php" >NEW PRODUCTS</a></td>
 <td rowspan=5 id="footicon">
 <a href="http://www.facebook.com"><img src="img/facebook.png" width="60px"></a>
 <a href="http://www.twitter.com"><img src="img/twitter.png" width="60px"></a>
@@ -258,12 +258,3 @@ function showproducts($num){
 	mysqli_close($conn);
 }
 	
-
-?>
-
-
-
-
-
-
-
